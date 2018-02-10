@@ -18,7 +18,7 @@ int main(){
     Inicio++;//se coloca en el siguiente inpar
   }
 
-  for(Inicio; Inicio <= Final; Inicio+=2){//va de dos en dos hasta llegar al ultimo inpar
+  for(;Inicio <= Final; Inicio+=2){//va de dos en dos hasta llegar al ultimo inpar
     Suma = Suma+Inicio;
   }
 
