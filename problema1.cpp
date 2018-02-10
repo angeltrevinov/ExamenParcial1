@@ -23,6 +23,5 @@ int main(){
   }
 
   cout << Suma << endl;
-
   return 0;
 }
