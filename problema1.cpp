@@ -8,9 +8,21 @@
 
 using namespace std;
 
+
 int main(){
 
-  /* Code Here */
+  int Inicio, Final, Suma = 0;
+  cin >> Inicio;
+  cin >> Final;
+  if(Inicio%2 == 0){//empiezas con un par
+    Inicio++;//se coloca en el siguiente inpar
+  }
+
+  for(Inicio; Inicio <= Final; Inicio+=2){//va de dos en dos hasta llegar al ultimo inpar
+    Suma = Suma+Inicio;
+  }
+
+  cout << Suma << endl;
 
   return 0;
 }
