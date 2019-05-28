@@ -1,7 +1,7 @@
 /*
   Angel Odiel Treviño Villanueva
   A01336559
-  Examen Parcial 1: problema 2 Fecha: 10/feb  Materia: Diseño de Algoritmos
+  problema 2 Fecha: 10/feb  Materia: Diseño de Algoritmos
 */
 
 #include <iostream>
